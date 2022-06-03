@@ -6,9 +6,9 @@ Some JS is there to provide for a responsive feel
 
 -Screenshots-
 
-![ScreenShot](https://https://i.postimg.cc/hhRp8y6Z/Create-your-own-Pizza.png)
-![ScreenShot](https://https://i.postimg.cc/rzGgfGLV/Home.png)
-![ScreenShot](https://https://i.postimg.cc/RWhRCjJh/Menu.png)
-![ScreenShot](https://https://i.postimg.cc/svVmqBVp/Payment.png)
-![ScreenShot](https://https://i.postimg.cc/VdDg8Y62/Reciept.png)
-![ScreenShot](https://https://i.postimg.cc/zyQky0Tj/Restaurants.png)
+![ScreenShot](https://i.imgur.com/5xHabqt.png)
+![ScreenShot](https://i.imgur.com/skeSzuf.png)
+![ScreenShot](https://i.imgur.com/67KYz2D.png)
+![ScreenShot](https://i.imgur.com/kcH9soT.png)
+![ScreenShot](https://i.imgur.com/O31vfbJ.png)
+![ScreenShot](https://i.imgur.com/FPvI0FE.png)
