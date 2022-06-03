@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pizza Delivery System</title>
+    <link rel="stylesheet" href="stylesrestaurant.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery-1.11.3.js" charset="utf-8"></script>
+  <script src="scripts.js" charset="utf-8"></script>
+  <script src="https://kit.fontawesome.com/fe00a500bf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fa-solid fa-pizza-slice"></i>Sbarros</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/Restaurants.html" class="navbar__links">Restaurants</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/registersignin.html" class="button">Sign Up/In</a>
+                </li>
+                <div id="cart-btn" class="fas fa-shopping-cart"><span>4</span></div>
+            </ul>
+        </div>
+    </nav>
+
+    <!--shopping cart-->
+    <div class="shopping-cart">
+
+      <section>
+   
+         <div id="close-cart"><span>close</span></div>
+   
+         <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="images/pizza-1.webp" alt="">
+            <div class="content">
+               <p>Margherita [S] <span>(TL 90)</span></p>
+               <form action="" method="post">
+                  <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                  <button type="submit" class="fas fa-edit" name="update_qty"></button>
+               </form>
+            </div>
+         </div>
+   
+         <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="images/pizza-3.webp" alt="">
+            <div class="content">
+               <p>Margherita [M] <span>(TL 75)</span></p>
+               <form action="" method="post">
+                  <input type="number" class="qty" name="qty" min="1" value="1" max="100">
+                  <button type="submit" class="fas fa-edit" name="update_qty"></button>
+               </form>
+            </div>
+         </div>
+   
+         <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="images/pizza-6.opdownload" alt="">
+            <div class="content">
+               <p>Pepperoni Pizza [M] <span>(TL 170)</span></p>
+               <form action="" method="post">
+                  <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                  <button type="submit" class="fas fa-edit" name="update_qty"></button>
+               </form>
+            </div>
+         </div>
+   
+         <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="images/pizza-7.opdownload" alt="">
+            <div class="content">
+               <p>Pepperoni Pizza [L] <span>(TL 115)</span></p>
+               <form action="" method="post">
+                  <input type="number" class="qty" name="qty" min="1" value="1" max="100">
+                  <button type="submit" class="fas fa-edit" name="update_qty"></button>
+               </form>
+            </div>
+         </div>
+   
+         <a  id="order_now_btn" href="confirmorder.html" class="btn">order now</a>
+   
+      </section>
+   
+   </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="restaurant-container">
+      <h1>Menu</h1>
+        <div class="restaurant-menu">
+          <h2 class="menu-group-heading">
+            Small Pizza
+          </h2>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/Marg.webp" alt="Bruschetta">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Margherita Pizza</span>
+                  <span class="menu-item-price">45.0 TL</span>
+                  <span class="menu-small-order-btn"><a href="/" class="button">+</a></span>
+                </h3>
+                <p class="menu-item-description">
+                  tomatoes, mozzarella cheese, garlic, fresh basil, and extra-virgin olive oil.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/pep.jpg.opdownload" alt="Bruschetta">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Pepperoni Pizza</span>
+                  <span class="menu-item-price">55.0 TL</span>
+                  <span class="menu-small-order-btn"><a href="/" class="button">+</a></span>
+                </h3>
+                <p class="menu-item-description">
+                  Pepperoni is a meat mixture of beef and pork that has been cured and seasoned with paprika and chili powder
+                </p>
+              </div>
+            </div>
+          </div>
+          <h2 class="menu-group-heading">
+            Medium Pizza
+          </h2>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/Marg.webp" alt="Bruschetta">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Margherita Pizza</span>
+                  <span class="menu-item-price">75.0 TL</span>
+                  <span class="menu-medium-order-btn"><a href="/" class="button">+</a></span>
+                </h3>
+                <p class="menu-item-description">
+                  tomatoes, mozzarella cheese, garlic, fresh basil, and extra-virgin olive oil.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/pep.jpg.opdownload" alt="Bruschetta">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Pepperoni Pizza</span>
+                  <span class="menu-item-price">85.0 TL</span>
+                  <span class="menu-medium-order-btn"><a href="/" class="button">+</a></span>
+                </h3>
+                <p class="menu-item-description">
+                  Pepperoni is a meat mixture of beef and pork that has been cured and seasoned with paprika and chili powder
+                </p>
+              </div>
+            </div>
+          </div>
+          <h2 class="menu-group-heading">
+            Large Pizza
+          </h2>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/Marg.webp" alt="Bruschetta">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Margherita Pizza</span>
+                  <span class="menu-item-price">105.0 TL</span>
+                  <span class="menu-large-order-btn"><a href="/" class="button">+</a></span>
+                </h3>
+                <p class="menu-item-description">
+                  tomatoes, mozzarella cheese, garlic, fresh basil, and extra-virgin olive oil.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img class="menu-item-image" src="/images/pep.jpg.opdownload" alt="Bruschetta">
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Pepperoni Pizza</span>
+                  <span class="menu-item-price">115.0 TL</span>
+                  <span class="menu-large-order-btn"><a href="/" class="button">+</a></span>
+                </h3>
+                <p class="menu-item-description">
+                  Pepperoni is a meat mixture of beef and pork that has been cured and seasoned with paprika and chili powder
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Create -->
+    <div class="create-container">
+      <h1>Create Your Own Pizza</h1>
+      <div class="row">
+        <div id="pizza-builder" class="col-md-4 well">
+          <h3>Pizza Builder</h3>
+          <hr>
+          <form id="new-pizza">
+            <div class="form-group">
+              <h5>Choose a size
+                <span id="sizes" class="pull-right clickable underline text-warning glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+              </h5>
+              <div class="sizes">
+                <div class="radio">
+                  <label class="checkbox-inline">
+                    <input type="radio" name="size-options" id="extra-small" value="extra-small">
+                    Extra-small (8")
+                    <label class="checkbox-inline">
+                </div>
+                <div class="radio">
+                  <label class="checkbox-inline">
+                    <input type="radio" name="size-options" id="small" value="small">
+                    Small (10")
+                    <label class="checkbox-inline">
+                </div>
+                <div class="radio">
+                  <label class="checkbox-inline">
+                    <input type="radio" name="size-options" id="medium" value="medium" checked>
+                    Medium (12")
+                    <label class="checkbox-inline">
+                </div>
+                <div class="radio">
+                  <label class="checkbox-inline">
+                    <input type="radio" name="size-options" id="large" value="large">
+                    Large (14")
+                    <label class="checkbox-inline">
+                </div>
+                <div class="radio">
+                  <label class="checkbox-inline">
+                    <input type="radio" name="size-options" id="extra-large" value="extra-large">
+                    Extra-large (16")
+                  </label>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="create-form-group">
+              <h5>Choose your cheese preference
+                <span id="cheese" class="pull-right clickable underline text-warning glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+              </h5>
+              <div class="cheese">
+                <div class="radio">
+                  <label class="checkbox-inline">
+                    <input type="radio" name="cheese-options" id="none" value="none">
+                    No cheese
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="checkbox-inline">
+                    <input type="radio" name="cheese-options" id="regular" value="regular" checked>
+                    Regular cheese
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="checkbox-inline">
+                    <input type="radio" name="cheese-options" id="extra" value="extra">
+                    Extra cheese
+                    <label class="checkbox-inline">
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="create-form-group">
+              <h5>Choose some toppings
+                <span id="toppings" class="pull-right clickable underline text-warning glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+              </h5>
+              <br>
+              <div class="toppings">
+                <h6>Meats</h6>
+                <div>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="pepperoni" value="2"> Pepperoni
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="salami" value="1.5"> Salami
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="bacon" value="1"> Bacon
+                  </label>
+                </div>
+                <div>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="chicken" value="1.75"> Chicken
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="beef" value="2.5"> Beef
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="ham" value="1"> Ham
+                  </label>
+                </div>
+                <hr>
+                <h6>Non-Meats</h6>
+                <div>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="olives" value="1.25"> Olives
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="peppers" value=".5"> Peppers
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="mushrooms" value="1.5"> Mushrooms
+                  </label>
+                </div>
+                <div>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="onions" value=".25"> Onions
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="pineapple" value="1"> Pineapple
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" class="topping" id="spinach" value="1.5"> Spinach
+                  </label>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <h5 style="color: #fff;">View Cost
+              <span id="pizza-cost" class="pull-right clickable underline text-warning glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+            </h5>
+            <div class="pizza-cost">
+              <p id="pizza-price" class="text-success">$10.00</p>
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-success btn-sm">Add your pizza to the cart</button>
+          </form>
+        </div>
+          </div>
+        </div>
+      </div>
+    <!-- Footer -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About us</h2>
+                    <a href="/">How it works</a>
+                    <a href="/">Reviews</a>
+                    <a href="/">Terms of Services</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a>
+                    <a href="/">Support</a>
+                    <a href="/">Suggestions</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a>
+                    <a href="/">Facebook</a>
+                    <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fa-solid fa-pizza-slice"></i>Sbarros</a>
+                </div>
+                <p class="website__rights">© Pizzeria 2022. All Rights Reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
