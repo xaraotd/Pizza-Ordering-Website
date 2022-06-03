@@ -6,15 +6,9 @@ Some JS is there to provide for a responsive feel
 
 -Screenshots-
 
-[url=https://postimg.cc/hhRp8y6Z][img]https://i.postimg.cc/hhRp8y6Z/Create-your-own-Pizza.png[/img][/url]
-
-[url=https://postimg.cc/rzGgfGLV][img]https://i.postimg.cc/rzGgfGLV/Home.png[/img][/url]
-
-[url=https://postimg.cc/RWhRCjJh][img]https://i.postimg.cc/RWhRCjJh/Menu.png[/img][/url]
-
-[url=https://postimg.cc/svVmqBVp][img]https://i.postimg.cc/svVmqBVp/Payment.png[/img][/url]
-
-[url=https://postimg.cc/VdDg8Y62][img]https://i.postimg.cc/VdDg8Y62/Reciept.png[/img][/url]
-
-[url=https://postimg.cc/zyQky0Tj][img]https://i.postimg.cc/zyQky0Tj/Restaurants.png[/img][/url]
-
+![ScreenShot](https://https://i.postimg.cc/hhRp8y6Z/Create-your-own-Pizza.png)
+![ScreenShot](https://https://i.postimg.cc/rzGgfGLV/Home.png)
+![ScreenShot](https://https://i.postimg.cc/RWhRCjJh/Menu.png)
+![ScreenShot](https://https://i.postimg.cc/svVmqBVp/Payment.png)
+![ScreenShot](https://https://i.postimg.cc/VdDg8Y62/Reciept.png)
+![ScreenShot](https://https://i.postimg.cc/zyQky0Tj/Restaurants.png)
