@@ -6,9 +6,15 @@ Some JS is there to provide for a responsive feel
 
 -Screenshots-
 
-https://raw.github.com/xaraotd/Pizza-Ordering-Website/screenshots/Home.png
-https://raw.github.com/xaraotd/Pizza-Ordering-Website/screenshots/Restaurants.png
-https://raw.github.com/xaraotd/Pizza-Ordering-Website/screenshots/Menu.png
-https://raw.github.com/xaraotd/Pizza-Ordering-Website/screenshots/Create-your-own-pizza.png
-https://raw.github.com/xaraotd/Pizza-Ordering-Website/screenshots/Payments.png
-https://raw.github.com/xaraotd/Pizza-Ordering-Website/screenshots/Receipt.png
+[url=https://postimg.cc/hhRp8y6Z][img]https://i.postimg.cc/hhRp8y6Z/Create-your-own-Pizza.png[/img][/url]
+
+[url=https://postimg.cc/rzGgfGLV][img]https://i.postimg.cc/rzGgfGLV/Home.png[/img][/url]
+
+[url=https://postimg.cc/RWhRCjJh][img]https://i.postimg.cc/RWhRCjJh/Menu.png[/img][/url]
+
+[url=https://postimg.cc/svVmqBVp][img]https://i.postimg.cc/svVmqBVp/Payment.png[/img][/url]
+
+[url=https://postimg.cc/VdDg8Y62][img]https://i.postimg.cc/VdDg8Y62/Reciept.png[/img][/url]
+
+[url=https://postimg.cc/zyQky0Tj][img]https://i.postimg.cc/zyQky0Tj/Restaurants.png[/img][/url]
+
